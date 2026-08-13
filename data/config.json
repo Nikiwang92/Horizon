@@ -60,29 +60,25 @@
         "name": "CNBC Finance",
         "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
         "enabled": true,
-        "category": "finance",
+        "category": "finance"
       },
       {
         "name": "Ahead of AI (Sebastian Raschka)",
         "url": "https://magazine.sebastianraschka.com/feed",
         "enabled": true,
-        "category": "AI",
+        "category": "AI"
       },
       {
         "name": "BBC Learning English",
         "url": "http://www.bbc.co.uk/learningenglish/english/features/6-minute-english/rss",
         "enabled": true,
-        "category": "",
-        "content_extractor": null,
-        "profile": null
+        "category": ""
       },
       {
         "name": "The Economist",
         "url": "https://www.economist.com/latest/rss.xml",
         "enabled": true,
-        "category": "Finance",
-        "content_extractor": null,
-        "profile": null
+        "category": "Finance"
       },
       {
         "name": "LWN.net",

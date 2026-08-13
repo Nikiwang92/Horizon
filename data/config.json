@@ -1,6 +1,6 @@
 {
   "ai": {
-    "provider": "anthropic",
+    "provider": "deepseek",
     "model": "deepseek-v4-flash[1m]",
     "base_url": "https://api.deepseek.com/anthropic",
     "api_key_env": "ANTHROPIC_API_KEY",

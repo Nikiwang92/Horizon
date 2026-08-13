@@ -1,16 +1,15 @@
 {
+  "version": "1.0",
   "ai": {
-    "provider": "deepseek",
+    "provider": "anthropic",
     "model": "deepseek-v4-flash[1m]",
     "base_url": "https://api.deepseek.com/anthropic",
     "api_key_env": "ANTHROPIC_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
-    "throttle_sec": 0.0,
-    "analysis_concurrency": 1,
-    "enrichment_concurrency": 1,
     "languages": [
-      "en", "zh"
+      "zh",
+      "en"
     ]
   },
   "sources": {

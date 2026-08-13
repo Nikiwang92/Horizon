@@ -3,8 +3,15 @@ name: Daily Horizon Summary
 on:
    schedule:
      - cron: '0 0 */2 * *'  # Runs every 2 days at 00:00 UTC
-  # workflow_dispatch:      # Allow manual trigger
-
+   workflow_dispatch:      # Allow manual trigger
+    inputs:
+      mode:
+        description: '运行模式'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full          # 完整分析（股票+大盘）
 
 jobs:
   daily-summary:

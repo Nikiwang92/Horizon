@@ -1,7 +1,6 @@
 {
   "ai": {
     "provider": "anthropic",
-    "provider_chain": null,
     "model": "deepseek-v4-flash[1m]",
     "base_url": "https://api.deepseek.com/anthropic",
     "api_key_env": "ANTHROPIC_API_KEY",
@@ -12,9 +11,7 @@
     "enrichment_concurrency": 1,
     "languages": [
       "en", "zh"
-    ],
-    "azure_endpoint_env": null,
-    "api_version": null
+    ]
   },
   "sources": {
     "github": [

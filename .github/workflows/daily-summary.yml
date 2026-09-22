@@ -52,7 +52,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: /docs
+          publish_dir: ./docs
           keep_files: true  # Keep existing summaries on gh-pages branch
           commit_message: "📝 Daily Summary: ${{ env.DATE }}"
           publish_branch: gh-pages

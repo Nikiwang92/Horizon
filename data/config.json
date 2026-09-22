@@ -221,7 +221,7 @@
   },
   "webhook": {
     "enabled": false,
-    "url_env": "HORIZON_WEBHOOK_URL",
+    "url_env": "https://nikiwang92.github.io/Horizon/",
     "delivery": "summary",
     "overview_position": "first",
     "platform": "generic",

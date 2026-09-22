@@ -148,7 +148,7 @@
       "profile": "tech-news"
     },
     "openbb": {
-      "enabled": false,
+      "enabled": true,
       "fetch_filings": false,
       "filings_provider": "sec",
       "watchlists": [

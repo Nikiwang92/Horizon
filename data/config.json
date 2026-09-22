@@ -149,8 +149,6 @@
     },
     "openbb": {
       "enabled": true,
-      "fetch_filings": false,
-      "filings_provider": "sec",
       "watchlists": [
         {
           "name": "megacaps",

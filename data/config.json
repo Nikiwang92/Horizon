@@ -1,7 +1,7 @@
 {
   "ai": {
     "provider": "DeepSeek",
-    "model": "gpt-4",
+    "model": "deepseek-v4-flash",
     "api_key_env": "DEEPSEEK_API_KEY",
     "base_url": "https://api.deepseek.com/anthropic",
     "temperature": 0.3,

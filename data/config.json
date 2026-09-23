@@ -19,11 +19,11 @@
         "topic_dedup": true
       },
       "tech-blog": {
-        "threshold": 4.0,
+        "threshold": 5.0,
         "topic_dedup": false
       },
       "finance-news": {
-        "threshold": 7.0,
+        "threshold": 6.0,
         "topic_dedup": true
       }
     }
@@ -155,7 +155,7 @@
           "enabled": true,
           "provider": "yfinance",
           "fetch_limit": 20,
-          "category": "equities",
+          "category": ["equities","finance-news"],
           "symbols": ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN", "META", "TSLA"],
           "profile": "tech-news"
         }
